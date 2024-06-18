@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-	  <PackageReference Include="AStar.Api.HealthChecks" Version="0.3.1" />
+	  <PackageReference Include="AStar.Api.HealthChecks" Version="0.3.0" />
     <PackageReference Include="coverlet.collector" Version="6.0.2" />
     <PackageReference Include="xunit" Version="2.8.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.8.1" />
