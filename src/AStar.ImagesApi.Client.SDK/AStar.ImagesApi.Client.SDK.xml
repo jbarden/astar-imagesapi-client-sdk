@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AStar.ImagesApi.Client.SDK</name>
+    </assembly>
+    <members>
+        <member name="T:AStar.ImagesApi.Client.SDK.ImagesApi.ImagesApiClient">
+            <summary>
+            The <see href="ImagesApiClient"></see> class.
+            </summary>
+            <param name="httpClient"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:AStar.ImagesApi.Client.SDK.ImagesApi.ImagesApiClient.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{AStar.ImagesApi.Client.SDK.ImagesApi.ImagesApiClient})">
+            <summary>
+            The <see href="ImagesApiClient"></see> class.
+            </summary>
+            <param name="httpClient"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:AStar.ImagesApi.Client.SDK.ImagesApi.ImagesApiClient.GetHealthAsync">
+            <inheritdoc/>
+        </member>
+        <member name="M:AStar.ImagesApi.Client.SDK.ImagesApi.ImagesApiClient.GetImageAsync(System.String,System.Int32,System.Boolean)">
+             <summary>
+            
+             </summary>
+             <param name="imagePath"></param>
+             <param name="maximumSizeInPixels"></param>
+             <param name="thumbnail"></param>
+             <returns></returns>
+        </member>
+        <member name="T:AStar.ImagesApi.Client.SDK.ImagesApi.ImagesApiConfiguration">
+            <summary>
+            The <see href="FilesApiConfiguration"></see> class containing the current configuration settings.
+            </summary>
+        </member>
+        <member name="F:AStar.ImagesApi.Client.SDK.ImagesApi.ImagesApiConfiguration.SectionLocation">
+            <summary>
+            Gets the Section Location for the API configuration from within the appSettings.Json file.
+            </summary>
+        </member>
+        <member name="P:AStar.ImagesApi.Client.SDK.ImagesApi.ImagesApiConfiguration.BaseUrl">
+            <summary>
+            Gets or sets the Base URL for the API.
+            </summary>
+        </member>
+        <member name="T:AStar.ImagesApi.Client.SDK.Models.NotFound">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AStar.ImagesApi.Client.SDK.Models.NotFound.Image">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
