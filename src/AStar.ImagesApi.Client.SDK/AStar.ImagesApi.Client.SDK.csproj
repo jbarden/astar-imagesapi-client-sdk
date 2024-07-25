@@ -7,7 +7,7 @@
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<DocumentationFile>$(MSBuildProjectName).xml</DocumentationFile>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>0.1.0</Version>
+		<Version>0.2.1</Version>
 		<Company>AStar Dev</Company>
 		<Copyright>AStar Dev 2024</Copyright>
 		<PackageIcon>AStar.png</PackageIcon>
@@ -17,7 +17,7 @@
 		<IncludeSymbols>True</IncludeSymbols>
 		<Authors>Jason Barden</Authors>
 		<Description>
-			This package contans the SDK for access the AStar Images API.
+			This package contains the SDK for access the AStar Images API.
 			It is not intended for public use but is available if it helps you.
 		</Description>
 		<PackageProjectUrl>https://github.com/jbarden/astar-imagesapi-client-sdk</PackageProjectUrl>
