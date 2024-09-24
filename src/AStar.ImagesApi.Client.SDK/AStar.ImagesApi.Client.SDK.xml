@@ -26,7 +26,7 @@
             
              </summary>
              <param name="imagePath"></param>
-             <param name="maximumSizeInPixels"></param>
+             <param name="maxDimensions"></param>
              <param name="thumbnail"></param>
              <returns></returns>
         </member>

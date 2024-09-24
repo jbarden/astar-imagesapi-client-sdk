@@ -35,12 +35,12 @@ public class ImagesApiClient(HttpClient httpClient, ILogger<ImagesApiClient> log
     ///
     /// </summary>
     /// <param name="imagePath"></param>
-    /// <param name="maximumSizeInPixels"></param>
+    /// <param name="maxDimensions"></param>
     /// <param name="thumbnail"></param>
     /// <returns></returns>
-    public async Task<Stream> GetImageAsync(string imagePath, int maximumSizeInPixels, bool thumbnail)
+    public async Task<Stream> GetImageAsync(string imagePath, int maxDimensions, bool thumbnail)
     {
-        var requestUri = $"api/image?thumbnail={thumbnail}&imagePath={Uri.EscapeDataString(imagePath)}&resize=true&maximumSizeInPixels={maximumSizeInPixels}";
+        var requestUri = $"api/image?thumbnail={thumbnail}&imagePath={Uri.EscapeDataString(imagePath)}&maxDimensions={maxDimensions}";
         var response = await httpClient.GetAsync(requestUri);
 
         return response.IsSuccessStatusCode
